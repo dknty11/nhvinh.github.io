@@ -97,14 +97,23 @@ article {
 	margin: 0 auto;
 }
 
-@media (max-width: 499px) {
+@media only screen and (max-width: 499px) {
+	body {
+		background-size: auto;
+	}
 	h1 {
 		font-size: 36px;
 		padding: 5px;
 	}
 
 	.first {
-		display: none;
+		margin: 0 30px;
+		padding: 10px;
+		font-size: 14px;
+		border-color: #cc6600;
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 20px;
 	}
 
 	img {
@@ -119,5 +128,12 @@ article {
 		max-width: 700px;
 		padding: 10px;
 		margin: 0 10px;
+	}
+	#panel2 {
+		padding: 10px;
+	}
+
+	#panel {
+		padding: 0;
 	}
 }
