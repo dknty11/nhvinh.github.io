@@ -20,7 +20,7 @@ body {
 	border-radius: 20px;
 }
 .second {
-	max-width: 500px;
+	max-width: 800px;
 	padding: 20px;
 	margin: 0 auto;
 	color: white;
@@ -70,7 +70,7 @@ a:hover {
 	color: #999900;
 }
 article {
-	max-width: 500px;
+	max-width: 700px;
 	padding: 20px;
 	margin: 0 auto;
 	color: #cc6600;
@@ -83,7 +83,7 @@ article {
 	display: none;
 	background-color: rgba(0, 0, 0, 0.7);
 	max-width: 500px;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 #panel4 {
 	padding: 20px;
@@ -96,7 +96,8 @@ article {
 	max-width: 500px;
 	margin: 0 auto;
 }
-@media (max-width: 500px) {
+
+@media (max-width: 499px) {
 	h1 {
 		font-size: 36px;
 		padding: 5px;
@@ -108,5 +109,15 @@ article {
 
 	img {
 		float: none;
+	}
+
+	article {
+		max-width: 700px;
+	}
+
+	.second {
+		max-width: 700px;
+		padding: 10px;
+		margin: 0 10px;
 	}
 }
